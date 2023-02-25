@@ -1,0 +1,181 @@
+body
+{
+    font-family: Roboto,Raleway;
+    color: #2E2F42;
+}
+
+.logo
+{
+    text-decoration: none;
+    color: #2E2F42;
+    width: 115px;
+    height: 24px;
+}
+
+.logo-part
+{
+    color: #4D5AE5;
+}
+
+/* Navigation */
+.navigation-list > .navigation-list-item
+{
+    display: inline;
+    list-style: none;
+}
+
+.navigation-list-item > a
+{
+    color: #2E2F42;
+    text-decoration: none;
+    width: 261px;
+    height: 24px;
+}
+
+/* Contacts */
+.contacts-list > .contacts-list-item
+{
+    display: inline;
+    list-style: none;
+}
+
+.contacts-list-item > a
+{
+    color: #434455;
+    text-decoration: none;
+    font-style: normal;
+    width: 153px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* Main */
+/* Section Order */
+.order
+{
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+}
+
+.order-title
+{
+    width: 496px;
+    height: 120px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    color: #FFFFFF;
+}
+
+.order-button
+{
+    background-color: #4D5AE5;
+    color: #fff;
+    width: 169px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* Why us */
+.why-us-list > .why-us-list-item
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.why-us-list-item
+{
+    width: 264px;
+    height: 104px;
+}
+
+.navigation-list-title
+{
+    width: 264px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120px;
+}
+
+.navigation-list-description
+{
+    width: 264px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* What are we doing */
+.works-heading
+{
+    width: 323px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    text-transform: capitalize;
+}
+
+.works-list > .works-list-item
+{
+    display: inline-block;
+}
+
+/* Our Team */
+.team-list-item
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.team-list-item-name
+{
+    width: 134px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.team-list-item-desc
+{
+    width: 132px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* Footer */
+.footer-logo
+{
+    text-decoration: none;
+    color: #2E2F42;
+    width: 115px;
+    height: 22px;
+}
+
+.footer-text
+{
+    width: 264px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
