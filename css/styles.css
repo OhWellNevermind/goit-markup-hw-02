@@ -45,12 +45,10 @@ body
 
 .contacts-list-item > a
 {
-    color: #434455;
-    text-decoration: none;
-    font-style: normal;
     width: 153px;
     height: 24px;
-    font-weight: 400;
+    color: #434455;
+    text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -69,7 +67,6 @@ body
     width: 496px;
     height: 120px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -82,7 +79,6 @@ body
     color: #fff;
     width: 169px;
     height: 56px;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -105,7 +101,6 @@ body
 {
     width: 264px;
     height: 24px;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -115,8 +110,6 @@ body
 {
     width: 264px;
     height: 72px;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -126,7 +119,6 @@ body
 {
     width: 323px;
     height: 40px;
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -150,7 +142,6 @@ body
 {
     width: 134px;
     height: 24px;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -160,8 +151,6 @@ body
 {
     width: 132px;
     height: 24px;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -193,8 +182,54 @@ footer
     width: 264px;
     height: 72px;
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #E7E9FC;
+}
+
+/* portfolio.html */
+/* Filter buttons */
+.filter-button-list
+{
+    list-style: none;
+}
+
+.filter-button-item
+{
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.filter-button-list .filter-button-item:hover, .filter-button-list .filter-button-item:focus-visible
+{
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #fff;
+}
+
+.project-list
+{
+    list-style: none;
+}
+
+.project-list-name
+{
+    width: 286px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.project-list-description
+{
+    width: 64px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 1.5;
 }
